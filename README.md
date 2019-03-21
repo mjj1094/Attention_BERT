@@ -21,7 +21,7 @@ pretrained model + preprocessed data
  # 2. 模型
  ## 1）ZP
  [MASK]
- ## 2）NP：
+ ## 2）NP
 不使用RNN了，直接利用BERT的输出，原因有二：1、BERT中有position信息，不存在无序问题；2、而且存在上下文信息
 运行:
 python main.py --do_train >./results/result_zp_mask_np_pretrained_1214 2> logs/log_zp_mask_np_pretrained_1214
